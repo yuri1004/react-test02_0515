@@ -1,0 +1,35 @@
+figure{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+figure>img{
+    width: 200px;
+}
+figure>figcaption{
+    width: 550px;
+    padding:10px;
+}
+figure>figcaption>dl{}
+figure>figcaption>dl>dt{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+figure>figcaption>dl>dd{
+    margin-bottom: 5px;
+}
+figure>figcaption>dl>dd:last-child{
+    text-align: right;
+    margin-right: 30px;
+}
+figure>figcaption>dl>dd>button{
+    background-color: red;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    padding: 8px;
+}
